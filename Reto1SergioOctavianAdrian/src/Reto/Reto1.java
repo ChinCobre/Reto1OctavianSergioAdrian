@@ -33,6 +33,7 @@ public class Reto1 {
 				System.out.println("Dame otro numero");
 				int n2=Integer.parseInt(sc.nextLine());
 				System.out.println(Funciones2.suma(n1, n2));
+				System.out.println();
 				break;
 			case 2:
 				System.out.println("Dame un numero");
@@ -40,6 +41,7 @@ public class Reto1 {
 				System.out.println("Dame otro numero");
 				n2=Integer.parseInt(sc.nextLine());
 				System.out.println(Funciones2.resta(n1, n2));
+				System.out.println();
 				break;
 			case 3:
 				System.out.println("Dame un numero");
@@ -47,6 +49,7 @@ public class Reto1 {
 				System.out.println("Dame otro numero");
 				n2=Integer.parseInt(sc.nextLine());
 				System.out.println(Funciones3.multiplicar(n1, n2));
+				System.out.println();
 				break;
 			case 4:
 				System.out.println("Dame un numero");
@@ -54,31 +57,40 @@ public class Reto1 {
 				System.out.println("Dame otro numero");
 				n2=Integer.parseInt(sc.nextLine());
 				System.out.println(Funciones3.dividir(n1, n2));
+				System.out.println();
 				break;
 			case 5:
 				System.out.println("Dame un numero");
 				n1=Integer.parseInt(sc.nextLine());
 				System.out.println(Funciones2.esPar(n1));
+				System.out.println();
 				break;
 			case 6:
 				System.out.println("Dame un numero");
 				n1=Integer.parseInt(sc.nextLine());
 				System.out.println(Funciones2.esImpar(n1));
+				System.out.println();
 				break;
 			case 7:
 				System.out.println("Dame un numero");
 				n1=Integer.parseInt(sc.nextLine());
 				System.out.println(Funciones3.esPositivo(n1));
+				System.out.println();
 				break;
 			case 8:
 				System.out.println("Dame un numero");
 				n1=Integer.parseInt(sc.nextLine());
 				System.out.println(Funciones3.esNegativo(n1));
+				System.out.println();
 				break;
 			case 0:
+				System.out.println("Fin de programa");
+				System.out.println();
 				break;
 
 			default:
+				System.out.println("Opcion incorrecta");
+				System.out.println();
 				break;
 			}
 			} while (entrada!=0);

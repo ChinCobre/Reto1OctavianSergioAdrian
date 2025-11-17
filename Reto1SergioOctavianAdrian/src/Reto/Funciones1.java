@@ -14,7 +14,9 @@ public class Funciones1 {
 		int m=Math.min(n2, n3);
 		int menor=Math.max(n3, m);
 		return menor;
+	
 	}
+
 	
 	
 	
@@ -22,7 +24,7 @@ public class Funciones1 {
 	
 	
 	
-	
+
 
 	
 }

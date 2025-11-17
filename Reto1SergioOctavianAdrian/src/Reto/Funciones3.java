@@ -9,8 +9,7 @@ public static  int multiplicar(int a, int b) {
 }
 	
 public static int dividir(int a, int b) {
-	Scanner sc = new Scanner(System.in);
-	if (a>0 || b >0) {
+	if (a>0 && b >0) {
 		return a/b;
 	}else {
 		return 0;
