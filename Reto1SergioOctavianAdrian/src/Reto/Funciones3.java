@@ -3,12 +3,14 @@ package Reto;
 import java.util.Scanner;
 
 public class Funciones3 {
-public static  int multiplicar(int a, int b) {
+/* Devuelve la multiplicación de dos números enteros */
+	public static  int multiplicar(int a, int b) {
 	return a*b;
 	
 }
 	
-public static int dividir(int a, int b) {
+/* Devuelve la division de dos números siempre y cuando sea ambos numeros sean mayor de 0 si no devuelve 0*/
+	public static int dividir(int a, int b) {
 	if (a>0 && b >0) {
 		return a/b;
 	}else {
@@ -16,14 +18,16 @@ public static int dividir(int a, int b) {
 	}
 	
 	}
-public static boolean esPositivo(int n) {
+/* Indica si el numero es positivo(true) o no(False)*/
+	public static boolean esPositivo(int n) {
 	if (n>=0) {
 		return true;
 	}else {
 		return false;
 	}
 }
-public static boolean esNegativo(int n) {
+/* Indica si el numero es negativo(True) o no (False)*/
+	public static boolean esNegativo(int n) {
 	if (n<0) {
 		return true;
 	}else {
