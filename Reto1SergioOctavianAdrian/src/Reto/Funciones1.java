@@ -3,8 +3,7 @@ package Reto;
 public class Funciones1 {
 
 	
-<<<<<<< HEAD
-=======
+
 	public static int maximo3(int n1, int n2, int n3) {
 		int m=Math.max(n2, n3);
 		int mayor=Math.max(n3, m);
@@ -24,6 +23,6 @@ public class Funciones1 {
 	
 	
 	
->>>>>>> branch 'main' of https://github.com/ChinCobre/Reto1OctavianSergioAdrian.git
+
 	
 }
